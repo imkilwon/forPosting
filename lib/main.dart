@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:forposting/expanded_test.dart';
+import 'package:forposting/rich_text_test.dart';
 
 void main()=>runApp(Practice());
 
@@ -10,7 +11,7 @@ class Practice extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ExpandedTest(),
+      home: RichTextTest(),
     );
   }
 }
